@@ -38,10 +38,6 @@ h3, p {
     margin-bottom: 10px;
 }
 
-ul {
-    padding-inline-start: 0;
-}
-
 a {
     color: var(--text-secundary-color);
     text-decoration: none;
@@ -88,6 +84,7 @@ nav, ul#main-menu {
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    padding-inline-start: 0;
 }
 
 button.hamburger {
