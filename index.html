@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./css/hamburger.css">
+        <title>Emanuel José | Desenvolvedor Fullstack</title>
+    </head>
+
+    <body>
+
+        <div id="content-block"></div>
+        <header>
+            <div class="flex-container">
+                <div class="flex-item" id="logo-container">
+                    <img id="logo" src="./images/emanuel-logo.svg" alt="Emanuel José">
+                </div>
+                <div class="flex-item" id="menu-container">
+                    <nav id="navigation">
+                        <button onclick="toggleMenu()" id="main-menu-button" class="hamburger hamburger--collapse" type="button">
+                            <span class="hamburger-box">
+                              <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                        <ul id="main-menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#about-me">Sobre</a></li>
+                            <li><a href="#services">Serviços</a></li>
+                            <li><a href="#projects">Projetos</a></li>
+                            <li><a href="#contact-info">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section id="banner">
+                <div class="flex-container">
+                    <div class="flex-item" id="banner-img">
+                        <img src="./images/app-building-illustration.png" alt="Ilustração de pessoas desenvolvendo um aplicativo em um celular.">
+                    </div>
+                    <div class="flex-item" id="banner-text">
+                        <h1>Transformando ideias em <span id="highlighted-title">experiências digitais</span> incríveis!</h1>
+                        <a class="button" href="#contact-info"><img src="./images/email-icon.svg" alt="">Entrar em contato</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about-me">
+                <div class="flex-container">
+                    <div class="flex-item flex-text margin-item">
+                        <h2>Sobre mim</h2>
+                        <p>Olá! Eu sou <strong>Emanuel José</strong>, estudante de Ciência da Computação e Desenvolvedor Fullstack.</p>
+                        <p>Apaixonado por tecnologia desde a infância, estou em aprendizado constante para aprimorar ainda mais minhas habilidades.</p>
+                        <p>No momento, o meu foco está em criar experiências digitais excepcionais centradas no usuário. Atuando desde o UX/UI Design até o desenvolvimento da aplicação.</p>
+                    </div>
+                    <div class="flex-item" id="profile-img">
+                        <img src="./images/profile-picture.png" alt="Emanuel sorrindo em uma paisagem turística">
+                    </div>
+                </div>
+            </section>
+
+            <div class="flex-container">
+                <section id="technologies">
+                    <div class="flex-item margin-item">
+                        <h2>Tecnologias e Ferramentas</h2>
+    
+                        <h3>HTML & CSS</h3>
+                        <div class="progress-bar">
+                            <div class="progress-bar-fill-50"></div>
+                        </div>
+                        <p class="technology-label">intermediário</p>
+    
+                        <h3>WordPress</h3>
+                        <div class="progress-bar">
+                            <div class="progress-bar-fill-50"></div>
+                        </div>
+                        <p class="technology-label">intermediário</p>
+    
+                        <h3>Figma</h3>
+                        <div class="progress-bar">
+                            <div class="progress-bar-fill-50"></div>
+                        </div>
+                        <p class="technology-label">intermediário</p>
+    
+                        <h3>SQL</h3>
+                        <div class="progress-bar">
+                            <div class="progress-bar-fill-30"></div>
+                        </div>
+                        <p class="technology-label">iniciante</p>
+                    </div>
+                </section>
+
+                <section id="services">
+                    <div class="flex-item">
+                        <h2>Serviços</h2>
+                        <ul>
+                            <li>Desenvolvimento de E-commerce;</li>
+                            <li>Desenvolvimento de Sites Institucionais;</li>
+                            <li>Desenvolvimento de Landing Pages;</li>
+                            <li>UX/UI Design.</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <section id="projects">
+                <div class="flex-container" id="projects-text-container">
+                    <div class="flex-item margin-item">
+                        <h2>Projetos</h2>
+                        <p>Esses são alguns projetos que foram desenvolvidos por mim.</p>
+                    </div>
+                    <div class="flex-item margin-item">
+                        <div class="flex-container projects-cards-container">
+                            <div class="flex-item project-card">
+                                <a href="#">
+                                <img src="./images/clear-glass-thumbnail.png" alt="Site da Clear Glass">
+                                <div class="project-card-info">
+                                    <div class="project-title">
+                                        <h3>Clear Glass</h3>
+                                        <p class="project-label">Desenvolvimento Web</p>
+                                    </div>
+                                    <div class="project-page">
+                                        <img src="./images/arrow-right.svg" alt="Seta para a direita"></a>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="flex-item project-card">
+                                <a href="#">
+                                <img src="./images/techmasters-thumbnail.png" alt="Site da Clear Glass">
+                                <div class="project-card-info">
+                                    <div class="project-title">
+                                        <h3>TechMasters</h3>
+                                        <p class="project-label">Desenvolvimento Web</p>
+                                    </div>
+                                    <div class="project-page">
+                                        <img src="./images/arrow-right.svg" alt="Seta para a direita"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact-info">
+                <div class="flex-container">
+                    <div class="flex-item margin-item">
+                        <h2>Contato</h2>
+                        <p>Você pode utilizar o formulário para entrar em contato comigo ou, também, entrar em contato através dos canais abaixo:</p>
+                        <ul>
+                            <li><strong>E-mail:</strong><a href="mailto:emanueljswp@gmail.com"> emanueljswp@gmail.com</a></li>
+                            <li><strong>Telefone:</strong><a href="tel:5527999999999"> (27) 99999-9999</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex-item contact-form">
+                        <form action="https://docs.google.com/forms/u/9/d/e/1FAIpQLSdQHAkbc7ap4npXgLWGxf3aMWtALeBOa7KGr8eQQCGWxpWLDA/formResponse" method="POST" target="_self">
+                            <input name="entry.622211484" type="text" placeholder="Nome" autocomplete="name" required>
+                            <input name="emailAddress" type="email" placeholder="E-mail" autocomplete="email" required>
+                            <textarea name="entry.1204775938" placeholder="Mensagem" autocomplete="off" required></textarea>
+                            <button class="button">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id=copyright>
+            <p>2023 © Emanuel José. Todos os direitos reservados.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
