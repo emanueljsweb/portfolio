@@ -242,6 +242,8 @@ div#projects-text-container > .flex-item {
 
 .contact-form form {
     max-width: max-content;
+    max-width: -webkit-fill-available;
+    max-width: -moz-fill-available;
 }
 
 .contact-form input, .contact-form textarea {
@@ -251,6 +253,9 @@ div#projects-text-container > .flex-item {
     color: var(--text-secundary-color);
     font-family: inherit;
     margin: 0.5em; 
+    max-width: 100%;
+    max-width: -webkit-fill-available;
+    max-width: -moz-fill-available;
     outline: none;
     padding: 1em;
     width: 100%;
