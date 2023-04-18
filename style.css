@@ -70,7 +70,7 @@ a:hover {
 
 header {
     border-bottom: 1px #383838 solid;
-    padding: 5vw;
+    padding: 2em 5vw;
 }
 
 img#logo {
@@ -264,7 +264,7 @@ div#projects-text-container > .flex-item {
 
 footer#copyright {
     border-top: 1px #383838 solid;
-    padding: 5vw;
+    padding: 2em 5vw;
 }
 
 .social-media {
