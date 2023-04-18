@@ -71,7 +71,7 @@ a:hover {
 
 header {
     border-bottom: 1px #383838 solid;
-    padding: 2em;
+    padding: 5vw;
 }
 
 img#logo {
@@ -264,16 +264,22 @@ div#projects-text-container > .flex-item {
 }
 
 footer#copyright {
-    align-items: center;
     border-top: 1px #383838 solid;
-    display: flex;
-    justify-content: center;
-    padding: 2em;
-    text-align: center;
+    padding: 5vw;
 }
 
-#copyright p {
-    width: 90vw;
+.social-media {
+    justify-content: end;
+}
+
+.social-media .button {
+    margin-right: 0.5em;
+}
+
+.social-media img {
+    fill: var(--primary-color);
+    margin: 0;
+    width: 100%;
 }
 
 @media only screen and (min-width:481px) and (max-width:768px) {
@@ -499,7 +505,12 @@ footer#copyright {
         width: -webkit-fill-available;
         width: -moz-fill-available;
     }
-    
+
+    .social-media {
+        flex-direction: row;
+        justify-content: left;
+        margin-top: 0;
+    }
 }
 
 @media only screen and (max-width:240px) {
