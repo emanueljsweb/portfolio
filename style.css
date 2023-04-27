@@ -11,6 +11,10 @@
     --button-background: #252525;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--background-color);
     font-family: 'Inter', sans-serif;
@@ -92,10 +96,6 @@ button.hamburger {
 
 ul#main-menu li {
     padding: 0 1em 0 1em;
-}
-
-#main-menu a {
-    scroll-behavior: smooth;
 }
 
 section .flex-container {
